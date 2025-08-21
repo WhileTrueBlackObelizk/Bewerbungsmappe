@@ -1,4 +1,3 @@
-# Bewerbungsmappe
 # 💼 Bewerbungsmappe – Suren Frey
 
 Willkommen in meinem GitHub-Repository **"Bewerbungsmappe"**.  
@@ -8,6 +7,7 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 ---
 
 ## 👨‍💻 Über mich
+
 - **Name:** Suren Frey  
 - **Ausbildung:** Fachinformatiker für Anwendungsentwicklung  
 - **Ziel:** Praktikum (6 M. Pflichtpraktikum im Rahmen der Umschulung) ab [04/2026]  
@@ -60,6 +60,7 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 ---
 
 ## 🎯 Warum ich?
+
 - Große Motivation, mein Wissen praxisnah im Praktikum einzusetzen  
 - Interesse an modernen Technologien, speziell in der **Softwareentwicklung** und **IT-Security**  
 - Zielorientiert, wissbegierig und zuverlässig  
@@ -67,7 +68,8 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 ---
 
 ## 📞 Kontakt
-- **E-Mail:** [info.surenfrey@gmail.com]   
+
+- **E-Mail:** [info.surenfrey@gmail.com]
 - **LinkedIn:** [www.linkedin.com/in/suren-frey-8b2278232]  
 
 ---
