@@ -1,0 +1,25 @@
+{
+  "name": "materialverwaltung",
+  "version": "1.0.0",
+  "description": "## Zum Starten: flask --app materialverwaltung run --debug",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerhardanger/materialverwaltung.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerhardanger/materialverwaltung/issues"
+  },
+  "homepage": "https://github.com/gerhardanger/materialverwaltung#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
+  }
+}

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Mitarbeiter-Liste</h1>
+
+<div class="mitarbeiter">
+    <table>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Vorname
+            </th>
+            <th>
+                Nachname
+            </th>
+            <th>
+                Abteilung
+            </th>
+            <th>
+                Telefonnummer
+            </th>
+        </tr>
+
+        {% for ma in alle_mitarbeiter %}
+
+        <tr>
+            <td>
+                <!-- wenn wir den Link konditional setzen wollen, müssen wir hier wissen, 
+                 ob die Mitarbeiter Material haben oder nicht -->
+                 {% if ma.get_has_material() %}
+                <a href="/material_rueckgabe/{{ma.id}}">{{ma.id}}</a>
+                {% else  %}
+                    {{ ma.id }}
+                {% endif %}
+            </td>
+            <td>
+                {{ma.vorname}}
+            </td>
+            <td>
+                {{ma.nachname}}
+            </td>
+            <td>
+                {{ma.abteilung}}
+            </td>
+            <td>
+                {{ma.get_telefonnummer()}}
+            </td>
+
+
+
+        </tr>
+
+        {% endfor %}
+
+
+    </table>
+</div>
+{% endblock %}

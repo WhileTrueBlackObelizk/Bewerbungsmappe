@@ -1,0 +1,55 @@
+{%extends 'base.html' %}
+
+{% block content %}
+
+<div>
+    <div class="c1">
+        <form action="/create_material" method="POST">
+            {{ formular.csrf_token }}
+            <p>
+                {{ formular.typ.label }}<br>
+                {{ formular.typ(size=40) }}<br>
+                {% if formular.typ.errors %}
+            <ul class="error">
+                {% for error in formular.typ.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </p>
+            <p>
+                {# Unsichtbar #}
+                <!-- Sichtbar -->
+                {{ formular.seriennummer.label }}<br>
+                {{ formular.seriennummer(size=40) }}<br>
+                {% if formular.seriennummer.errors %}
+            <ul class="error">
+                {% for error in formular.seriennummer.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </p>
+    </div>
+    <div class="c2">
+        {{ formular.kaufdatum.label }}<br>
+        {{ formular.kaufdatum() }}<br>
+
+        {% if formular.kaufdatum.errors %}
+        <ul class="error">
+            {% for error in formular.kaufdatum.errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        </p>
+    </div>
+    </p>
+    <p>
+        {{ formular.submit() }}
+    </p>
+</div>
+</form>
+
+{%endblock %}

@@ -1,0 +1,67 @@
+{%extends 'base.html' %}
+
+{% block content %}
+
+<div>
+    <form action="/material_ausgabe" method="POST">
+        {{ formular.csrf_token }}
+        <div class="c1">
+            {{ formular.mitarbeiter.label }}<br>
+            {{ formular.mitarbeiter() }}<br>
+            {% if formular.mitarbeiter.errors %}
+            <ul class="error">
+                {% for error in formular.mitarbeiter.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+
+        <div class="c2">
+            {{ formular.material.label }}<br>
+            {{ formular.material() }}<br>
+
+            {% if formular.material.errors %}
+            <ul class="error">
+                {% for error in formular.material.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+        </div>
+        <div class="c3">
+            {{ formular.ausgabedatum.label }}<br>
+            {{ formular.ausgabedatum() }}<br>
+
+            {% if formular.ausgabedatum.errors %}
+            <ul class="error">
+                {% for error in formular.ausgabedatum.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+
+            </p>
+        </div>
+
+
+        {{ formular.zustand.label }}<br>
+        {{ formular.zustand(cols="40", rows="20") }}<br>
+
+        {% if formular.zustand.errors%}
+        <ul class="error">
+            {% for error in formular.zustand.errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif%}
+
+        <p>
+            {{ formular.submit() }}
+        </p>
+
+    </form>
+</div>
+{%endblock %}

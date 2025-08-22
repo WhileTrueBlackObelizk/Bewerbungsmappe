@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>Material-Liste des Mitarbeiters {{ material[0][4] }} {{ material[0][5]  }}</h1>
+<div class="mitarbeiter">
+    <table>
+        <tr>
+            <th>
+                Material ID
+            </th>
+            <th>
+                Material Typ
+            </th>
+            <th>
+                Seriennummer
+            </th>
+            <th>
+                Zustand
+            </th>
+
+        </tr>
+
+        {% for ma in material %}
+
+        <tr>
+            <td>
+                {{ma[0]}}
+            </td>
+            <td>
+                {{ma[1]}}
+            </td>
+            <td>
+                {{ma[2]}}
+            </td>
+            <td>
+                {{ma[3]}}
+            </td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+</div>
+
+{% endblock %}

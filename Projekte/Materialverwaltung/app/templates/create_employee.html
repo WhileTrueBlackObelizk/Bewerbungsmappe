@@ -1,0 +1,65 @@
+{%extends 'base.html' %}
+
+{% block content %}
+
+<div>
+    <div class="c1">
+        <form action="/create_employee" method="POST">
+            {{ formular.csrf_token }}
+            <p>
+                {{ formular.vorname.label }}<br>
+                {{ formular.vorname(size=40) }}<br>
+                {% if formular.vorname.errors %}
+            <ul class="error">
+                {% for error in formular.vorname.errors %}
+                <!-- Style? -->
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </p>
+            <p>
+                {{ formular.nachname.label }}<br>
+                {{ formular.nachname(size=40) }}<br>
+                {% if formular.nachname.errors %}
+            <ul class="error">
+                {% for error in formular.nachname.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </p>
+    </div>
+    <div class="c2">
+        {{ formular.abteilung.label }}<br>
+        {{ formular.abteilung() }}<br>
+
+        {% if formular.abteilung.errors %}
+        <ul class="error">
+            {% for error in formular.abteilung.errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+
+        </p>
+        {{ formular.telefonnummer.label }}<br>
+        {{ formular.telefonnummer(size=20)}}<br>
+
+        {% if formular.telefonnummer.errors%}
+        <ul class="error">
+            {% for error in formular.telefonnummer.errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif%}
+    </div>
+    </p>
+    <p>
+        {{ formular.submit() }}
+    </p>
+</div>
+</form>
+
+{%endblock %}
