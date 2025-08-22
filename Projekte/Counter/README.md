@@ -1,15 +1,14 @@
-## Störungs Counter
+# Counter
 
-# Störungs Counter
+## Störungs-Counter
 
-Dieses Projekt ist ein einfacher Zähler für verschiedene Arten von Störungen (z. B. „technisch“ und „algemein“) mit grafischer Benutzeroberfläche (GUI) auf Basis von Python und Tkinter. Die gezählten Werte werden in einer SQLite-Datenbank gespeichert und können per Git synchronisiert werden.
-zu beachten ist dabei das bei diesem program nur ein admin zur selben zeit arbeiten sollte da es sonst zu marge ereignissen kommt die das program "nicht alleine" lösen kann 
+Dieses Projekt bietet eine einfache grafische Oberfläche (GUI) zum Zählen verschiedener Störungsarten (z. B. „technisch“ und „allgemein“) mit Python und Tkinter. Die Zählerstände werden in einer SQLite-Datenbank gespeichert und per Git synchronisiert. **Wichtig:** Das Programm sollte jeweils nur von einer Person im Admin-Modus genutzt werden, da parallele Nutzung zu Git-Konflikten führen kann, die manuell gelöst werden müssen.
 
 ## Verzeichnisstruktur
 
 - `stoerungs_counter.py` – Hauptdatei mit den GUI-Funktionen für Admin- und Viewer-Modus
-- `under_funktions_main.py` – Alle Datenbank- und Hilfsfunktionen (z. B. Zähler aktualisieren, Labels updaten)
-- `git_funktions.py` – Git-Funktionen zum Synchronisieren der Datenbankdatei
+- `under_functions_main.py` – Alle Datenbank- und Hilfsfunktionen (z. B. Zähler aktualisieren, Labels updaten)
+- `git_functions.py` – Git-Funktionen zum Synchronisieren der Datenbankdatei
 - `admin_start.py` – Startet das Programm im Admin-Modus (Zählen möglich)
 - `viewer_start.py` – Startet das Programm im Viewer-Modus (nur Anzeige)
 - `stoerungen.db` – SQLite-Datenbank mit den Zählerständen
@@ -20,11 +19,12 @@ zu beachten ist dabei das bei diesem program nur ein admin zur selben zeit arbei
 - Die Pakete `tkinter` und `sqlite3` (bei Standard-Python meist schon enthalten)
 - Git (für die Synchronisation der Datenbank)
 
-## bei linux 
+## Hinweise für Linux
 
-- könnte es nötig sein tkinter seperat zu instalieren 
-(sudo apt install python3-tk)!
-
+- Es kann nötig sein, `tkinter` separat zu installieren:
+  ```sh
+  sudo apt install python3-tk
+  ```
 
 ## Installation
 
@@ -67,22 +67,20 @@ python3 viewer_start.py
 
 - **Admin-Modus:**  
   Hier können neue Störungen gezählt werden. Die Datenbank wird beim Start synchronisiert und Änderungen werden direkt gespeichert und per Git gepusht.
-  soll immer nur von einer person genutzt werden bei wegsel des admin sollete manuel über das terminal geprüft werden ob alle daten korekt aktualisert wurden 
+  Der Admin-Modus sollte immer nur von einer Person genutzt werden. Beim Wechsel des Admins sollte manuell über das Terminal geprüft werden, ob alle Daten korrekt aktualisiert wurden.
 
 - **Viewer-Modus:**  
   Hier werden die aktuellen Zählerstände nur angezeigt. Die Datenbank wird regelmäßig per Git aktualisiert, aber es können keine Werte verändert werden.
-  kann von vielen genutz werden ohne das es zu problehmen kommt
+  Der Viewer-Modus kann von mehreren Personen gleichzeitig genutzt werden, ohne dass es zu Problemen kommt.
 
-- **Folge:**
-    das hat zu folge das eine marge strategie nicht nötig ist da dieser schwer um zusetzen ist 
+- **Folge:**  
+  Dadurch ist keine Merge-Strategie nötig, da diese schwer umzusetzen wäre.
 
-**Fehlermeldungen:**
-im terminal könnten fehler meldung auftretten wen:
+**Fehlermeldungen:**  
+Im Terminal können Fehlermeldungen auftreten, wenn:
 
--keine verbindung zu githaub besteht 
--ein marge konflickt auf getritten ist mit dem origin/main verzeichnis auf github 
-
-
+- keine Verbindung zu GitHub besteht
+- ein Merge-Konflikt mit dem `origin/main`-Branch auf GitHub aufgetreten ist
 
 ## Fehlerbehandlung und Hinweise
 
@@ -91,7 +89,5 @@ im terminal könnten fehler meldung auftretten wen:
 - Unter Linux muss `tkinter` ggf. separat installiert werden:  
   `sudo apt install python3-tk`
 - Das Programm ist plattformunabhängig und läuft unter Windows, macOS und Linux.
-- das program ist erweiterbar was die störungsarten angeht in der under_funkttions_main.py !
-
-
+- Das Programm ist erweiterbar, was die Störungsarten angeht (siehe `under_functions_main.py`).
 

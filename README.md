@@ -39,20 +39,20 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 
 - **Python-Skripte:** Kleine Automatisierungen (Dateiorganisation, Datenverarbeitung).  
 
-- **Webprojekt:** Statische Website mit HTML/CSS/JS im Rahmen der Umschulung.  
+- **Webprojekt:** Statische Website mit HTML/CSS/JS im Rahmen der Umschulung (siehe Schlaftracker-App).  
 
 ➡ Weitere Projekte finden Sie in meinen öffentlichen Repositories.  
 
 ## 🤝 Projekte, an denen ich mitgewirkt habe
 
-- **RPG-Konsolenspiel (Java):**  
-  Entwicklung eines textbasierten Rollenspiels im Team mit Fokus auf **OOP**, **Inventarsystem**, **Charakterklassen** (Warrior, Mage, Rogue).  
-
 - **Kleine Webprojekte (HTML, CSS, JS):**  
   Erstellung und Erweiterung statischer Webseiten im Rahmen der Umschulung.  
 
-- **Python-Grundlagenprojekte:**  
-  Erste Automatisierungen, Datenverarbeitung und kleine Tools (z. B. Dateiorganisation).  
+- **Counter:**  
+  Dieses Projekt ist ein einfacher Zähler für verschiedene Arten von Störungen (z. B. „technisch“ und „allgemein“) mit grafischer Benutzeroberfläche (GUI) auf Basis von Python und Tkinter.
+
+- **Materialverwaltung**
+  Ein System zur einfachen Verwaltung, Übersicht und Organisation von Materialien und Ressourcen.
 
 - **GitHub-Teamarbeit:**  
   Gemeinsame Bearbeitung von Repositories über GitHub (Pull Requests, Branches, Code Reviews).  
