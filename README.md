@@ -1,4 +1,4 @@
-# 💼 Bewerbungsmappe – Suren Frey
+# 💼 Bewerbungsmappe
 
 Willkommen in meinem GitHub-Repository **"Bewerbungsmappe"**.  
 Hier finden Sie alle relevanten Informationen zu meiner Person, meinen Fähigkeiten und Projekten im Rahmen meiner Umschulung zum **Fachinformatiker für Anwendungsentwicklung (FIAE)**.  
