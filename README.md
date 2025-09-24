@@ -68,7 +68,7 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 
 ## 📞 Kontakt
 
-- **E-Mail:** [info.surenfrey+github@gmail.com]
+- **E-Mail:** [project.pgeadtoe+github@gmail.com]
 
 ---
 
