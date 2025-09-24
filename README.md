@@ -69,7 +69,6 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 ## 📞 Kontakt
 
 - **E-Mail:** [info.surenfrey+github@gmail.com]
-- **LinkedIn:** [www.linkedin.com/in/suren-frey-8b2278232]  
 
 ---
 
