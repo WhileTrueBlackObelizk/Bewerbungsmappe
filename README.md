@@ -8,7 +8,6 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 
 ## 👨‍💻 Über mich
 
-- **Name:** Suren Frey  
 - **Ausbildung:** Fachinformatiker für Anwendungsentwicklung  
 - **Ziel:** Praktikum (6 M. Pflichtpraktikum im Rahmen der Umschulung) ab [04/2026]  
 
