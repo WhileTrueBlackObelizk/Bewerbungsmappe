@@ -8,68 +8,95 @@ Dieses Repository dient als digitale Ergänzung zu meinen Bewerbungsunterlagen.
 
 ## 👨‍💻 Über mich
 
-- **Ausbildung:** Fachinformatiker für Anwendungsentwicklung  
-- **Ziel:** Praktikum (6 M. Pflichtpraktikum im Rahmen der Umschulung) ab [04/2026]  
+- **Name:** Suren Frey  
+- **Standort:** Köln – Lindenthal  
+- **Umschulung:** Fachinformatiker für Anwendungsentwicklung (OneCareer), 03/2025 – 03/2027  
+- **Ziel:** Pflichtpraktikum (6 Monate) im Rahmen der Umschulung ab 04/2026  
 
 ---
 
 ## 🛠️ Technische Fähigkeiten
 
-- **Programmiersprachen:**  
-  - Java (OOP, Design Patterns, Konsolenprogramme, kleinere Anwendungen)  
-  - Python (Automatisierungen, Datenverarbeitung, erste Webentwicklung)  
-  - HTML, CSS, JavaScript (Grundlagen Webentwicklung)  
+### Programmiersprachen
 
-- **Tools & Technologien:**  
-  - Git & GitHub (Versionsverwaltung, Teamarbeit mit Repos)  
-  - IntelliJ IDEA, VS Code  
-  - Datenbanken (SQL – Grundlagen)  
-  - Linux/Windows/Mac als Entwicklungsumgebungen  
-  - Fortgeschrittene KI-Kentnisse
+- **Python:** OOP, Flask, Django, Automation, Scripting, SQLAlchemy, Testing, Cleancode, Tinker  
+- **Java:** OOP, JUnit, Multithreading, Exception Handling, Swing, JavaFX, JDBC, Maven, Gradle  
+- **JavaScript, PHP**  
 
-- **Soft Skills:**  
-  - Teamfähigkeit durch über 10 Jahre Erfahrung als Trainer  
-  - Schnelle Auffassungsgabe & Lernbereitschaft  
-  - Strukturierte und zielorientierte Arbeitsweise  
+### Datenbanken
+
+- SQL, MySQL  
+- Datenbankdesign und Normalisierung  
+
+### DevOps & Infrastruktur
+
+- Git / GitHub  
+- Proxmox, Kubernetes, Ansible  
+- Proxmox, Pi-Hole, Thinclients, DNS, Hosting, Server  
+
+### Tools & Umgebungen
+
+- IntelliJ IDEA, VS Code  
+- Linux, Windows, macOS als Entwicklungsumgebungen  
+
+### Soft Skills & Management
+
+- Mehrjährige Führungserfahrung als Studioleitung / Vertrieb mit Verantwortung für ein 5-köpfiges Team, Budget und Ergebnisse  
+- Erfahrung in Kundenakquise, Marktanalyse, Kundenbeziehungsaufbau und direktem Kundenkontakt  
+- Geschäftsführung eines Einzelunternehmens inkl. Organisationsaufbau und Projektmanagement  
+- Strukturierte, zielorientierte und verantwortungsbewusste Arbeitsweise  
+
+### Sprachen
+
+- Deutsch (Muttersprache)  
+- Englisch (fließend)  
+- Polnisch (Anfänger)  
 
 ---
 
 ## 📂 Eigene Projekte
 
-- **Python-Skripte:** Kleine Automatisierungen (Dateiorganisation, Datenverarbeitung).  
+- **Shadowboard – Verschlüsselter Multi-User Chat**  
+  Entwicklung eines verschlüsselten Multi-User-Chats mit Fokus auf IT-Sicherheit und Mandantenfähigkeit (siehe Repository „Shadowboard“).
 
-- **Webprojekt:** Statische Website mit HTML/CSS/JS im Rahmen der Umschulung (siehe Schlaftracker-App).  
+- **Bewerbungsmappe (dieses Repository)**  
+  Zentrale Sammlung meiner Unterlagen, Projekte und Informationen für Bewerbungen.
 
-➡ Weitere Projekte finden Sie in meinen öffentlichen Repositories.  
+➡ Weitere Projekte und technische Beispiele finden Sie in meinen öffentlichen Repositories auf GitHub.
 
-## 🤝 Projekte, an denen ich mitgewirkt habe
+---
 
-- **Kleine Webprojekte (HTML, CSS, JS):**  
-  Erstellung und Erweiterung statischer Webseiten im Rahmen der Umschulung.  
+## 🤝 Weitere Erfahrungen & Engagement
 
-- **Counter:**  
-  Dieses Projekt ist ein einfacher Zähler für verschiedene Arten von Störungen (z. B. „technisch“ und „allgemein“) mit grafischer Benutzeroberfläche (GUI) auf Basis von Python und Tkinter.
+- **Homelab & Infrastruktur:**  
+  Betrieb eines eigenen Homelabs mit Proxmox, Pi-Hole, Thinclients, DNS, Hosting und Serverdiensten.
 
-- **Materialverwaltung**
-  Ein System zur einfachen Verwaltung, Übersicht und Organisation von Materialien und Ressourcen.
+- **E-Sport-Verein:**  
+  Vorstand/Gründer eines E-Sportvereins mit Fokus auf Vereinsaufbau, Organisation und Community-Management.
 
-- **GitHub-Teamarbeit:**  
-  Gemeinsame Bearbeitung von Repositories über GitHub (Pull Requests, Branches, Code Reviews).  
+- **PC-Bau & Hardware:**  
+  Umbau, Upgrade und Self-Build von PCs, inklusive Fehleranalyse und Optimierung.
+
+- **Sport & Gesundheit:**  
+  Kraftdreikampf, Bodybuilding, Gesundheit als Ausgleich und zur Förderung von Disziplin und Durchhaltevermögen.
 
 ---
 
 ## 🎯 Warum ich?
 
-- Große Motivation, mein Wissen praxisnah im Praktikum einzusetzen  
-- Interesse an modernen Technologien, speziell in der **Softwareentwicklung** und **IT-Security**  
-- Zielorientiert, wissbegierig und zuverlässig  
+- Kombination aus technischer Ausbildung, praktischen Projekten und fundierter Führungserfahrung im Management  
+- Hohe Motivation, mein Wissen praxisnah in einem Praktikum einzusetzen und mich in bestehende Teams zu integrieren  
+- Starkes Interesse an moderner **Softwareentwicklung**, IT-Infrastruktur und IT-Sicherheit  
+- Analytische Denkweise, Lernbereitschaft und Verantwortungsbewusstsein aus Leitungstätigkeit und Unternehmensführung  
 
 ---
 
 ## 📞 Kontakt
 
-- **E-Mail:** [project.pgeadtoe@gmail.com]
+- **E-Mail:** info.surenfrey@gmail.com  
+- **Standort:** Köln – Lindenthal  
+- **LinkedIn / GitHub:** Verlinkt im Profil bzw. in diesem Repository  
 
 ---
 
-✍️ *Dieses Repository wird laufend aktualisiert, um meinen Lernfortschritt und neue Projekte zu dokumentieren.*
+✍️ *Dieses Repository wird laufend aktualisiert, um meinen Lernfortschritt, neue Technologien und Projekte zu dokumentieren.*
